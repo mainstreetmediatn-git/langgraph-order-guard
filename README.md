@@ -28,7 +28,7 @@ python3 -m venv .venv
 .venv/bin/python -m pytest -q
 ```
 
-No environment activation is required. `requirements-lock.txt` pins the environment used for verification; `requirements.txt` states the direct dependencies. Internet access is needed for installation. Runtime calls use loopback only. Linux/Python 3.12 was run here; Windows/macOS commands are provided but have not been executed here. CI configuration is included but has not run on GitHub.
+No environment activation is required. `requirements-lock.txt` pins the environment used for verification; `requirements.txt` states the direct dependencies. Internet access is needed for installation. Runtime calls use loopback only. Linux/Python 3.12 was run here; Windows/macOS commands are provided but have not been executed here. GitHub Actions runs the same tests and demo; inspect the checks linked to the commit you review. The included evidence directory records the local run captured before publication.
 
 ## What the demo proves
 
@@ -88,7 +88,7 @@ The guard's ledger persists business-operation state; this demo does **not** imp
 - `demo.py`: reproducible before/after/fallback demonstration.
 - `DEMONSTRATION.md`: recording script and GitHub credit checklist.
 - `CASE_STUDY.md`: honest portfolio narrative and boundaries.
-- `.github/workflows/tests.yml`: draft CI workflow for a repository you publish.
+- `.github/workflows/tests.yml`: GitHub Actions workflow for installation, dependency checks, tests, and demo validation.
 
 ## Limits and production integration
 

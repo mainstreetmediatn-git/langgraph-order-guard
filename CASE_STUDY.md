@@ -24,7 +24,7 @@ A second tool can fail before connecting after a first tool succeeds. A connect-
 
 ## Evidence
 
-Run `python demo.py` and `python -m pytest -q`. See captured demo output, environment details and JUnit results in `evidence/`. The test suite exercises network response loss, malformed receipts, conflicting keys, concurrent execution, child-process exits and persisted receiver records. CI is configured but not yet observed on GitHub. The real upstream report is external evidence; local tests are separate evidence of this mitigation.
+Run `python demo.py` and `python -m pytest -q`. See captured demo output, environment details and JUnit results in `evidence/`. The test suite exercises network response loss, malformed receipts, conflicting keys, concurrent execution, child-process exits and persisted receiver records. GitHub Actions runs the test suite and demo on pushes and pull requests; inspect its linked run for the exact commit under review. Archived evidence records the local run before publication. The real upstream report is external evidence; local tests are separate evidence of this mitigation.
 
 ## Limits
 
