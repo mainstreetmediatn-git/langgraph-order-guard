@@ -1,0 +1,24 @@
+{
+  "langgraph": "1.2.20",
+  "scenarios": [
+    {
+      "scenario": "BEFORE: lost reply + node retry",
+      "orders_committed": 2,
+      "duplicate": true
+    },
+    {
+      "scenario": "AFTER: lost reply + verified receipt + replay",
+      "orders_committed": 1,
+      "post_attempts": 1,
+      "status": "VERIFIED",
+      "same_receipt_on_replay": true
+    },
+    {
+      "scenario": "FALLBACK: verification outage then reconciliation",
+      "during_outage": "UNKNOWN",
+      "after_recovery": "VERIFIED",
+      "orders_committed": 1,
+      "post_attempts": 1
+    }
+  ]
+}
