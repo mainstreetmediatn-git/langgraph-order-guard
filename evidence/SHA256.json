@@ -1,0 +1,23 @@
+{
+  ".github/workflows/tests.yml": "1ef4f249e4a7e601aebd82ba61f1b6bf5bd1884260dc6ff75b93232375c7969a",
+  ".gitignore": "0b166e7feab712703f1f1d8d65ed5f1132b8a32df2563e6aeb61b08407b60dcd",
+  "CASE_STUDY.md": "09ea4704327c83f976cff88b03bbbb399b4c3ec270e52910c911e52649c43cba",
+  "DEMONSTRATION.md": "b9d70813959231f160c258414f6463052fba4067105e81135d3647a1948471a2",
+  "LICENSE": "f8b2d3dadbc5eb8042f2825a626ef3e8c0f68daaf82bff4e1f227b7112f8c4cc",
+  "README.md": "304981e4a965d28f9078744ff8943adc61a4420e4dab0e8d99e9a8a21a7b2bee",
+  "demo.py": "eaa3c50765a436154ff625b1e237738284119b6ed4854c630c9c718c21574a00",
+  "evidence/demo.json": "1021298608ee6709387c1a9ed4e6c8b8fc8a421c12e5b5b20db51cf5a2915957",
+  "evidence/environment.json": "f03c031f445b34b88be9eae079c84e65b2b0245f7ad4196fc82f53ba4aa471f7",
+  "evidence/pytest.txt": "ff54d7e73fcea912021e46fe3606b4a659ab9f65fcc26c82ece68503069cee35",
+  "evidence/red-green.json": "92f5372480228960bc0bb09b7fcd6a9a0257d6139e729af8c3103d4a66b64fb4",
+  "evidence/tests.xml": "037a38adb751cedcab48ff266c3d157d3751ce3d07d1c4732ff9c924b49fe347",
+  "order_guard/__init__.py": "0863dd3139c4fcfa67c10efba7b00e972e20df861dbe46c7aaa9ed32a7bd881b",
+  "order_guard/__main__.py": "99c7a30329beea98aa7c01d980b930e05f032215545debeb33a9beba1536a3de",
+  "order_guard/guard.py": "4eb31aa6959218536199558c393b2faeec9c22b3e5a9db891cbe4b8f1bd069ec",
+  "order_guard/service.py": "e0db9ee3087839261f8cb0b4072f3213eba12dc8184684eaf88e783bde3c3d3d",
+  "order_guard/workflow.py": "1bc358bdcc148a330501582f98cd880a02176bb22f18fcda57804b4cefb7f4fd",
+  "regression_probe.py": "a37d41460af1a9ddc048b869b530aa1b4fc10ca7524f24b827bd5ad22f9116cd",
+  "requirements-lock.txt": "d91a0cc6104742f02b80a5903ed6e9e15daddb3f023801d3881841ceda83f922",
+  "requirements.txt": "621c7393497ec43c707bbb0d4d4f12a4c88984e7827dd8eb760b17428c70263c",
+  "tests/test_guard.py": "74324c5fef9351f479357ba8765a09a2b68b55bb3f0c77e1b2d9d04b7c0e85ff"
+}

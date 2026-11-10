@@ -1,0 +1,14 @@
+[
+  {
+    "command": "python regression_probe.py --unsafe",
+    "exit_code": 1,
+    "stdout": "{\"unsafe\": true, \"orders_committed\": 2, \"outcome\": \"CLAIMED_SUCCESS_WITHOUT_VERIFICATION\"}\n",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/eaabf8a7fc96/langgraph-order-guard/regression_probe.py\", line 29, in <module>\n    main()\n  File \"/workspace/scratch/eaabf8a7fc96/langgraph-order-guard/regression_probe.py\", line 23, in main\n    assert count == 1, f\"REGRESSION: one business request committed {count} orders\"\n           ^^^^^^^^^^\nAssertionError: REGRESSION: one business request committed 2 orders\n"
+  },
+  {
+    "command": "python regression_probe.py",
+    "exit_code": 0,
+    "stdout": "{\"unsafe\": false, \"orders_committed\": 1, \"outcome\": \"VERIFIED\"}\nPASS: exactly one local order, with receipt verification\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "verified_on": "2026-11-10",
+  "test_result": "29 passed in 16.81s",
+  "pip_check": "No broken requirements found.",
+  "deployment": "local-only; no production or GitHub CI run"
+}
